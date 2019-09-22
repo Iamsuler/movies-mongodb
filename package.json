@@ -4,7 +4,8 @@
   "description": "a nodejs project for traning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "ts-node-dev index.ts"
   },
   "repository": {
     "type": "git",
@@ -16,20 +17,24 @@
   ],
   "dependencies": {
     "body-parser": "^1.17.1",
-    "bower": "^1.8.4",
     "express": "^4.15.2",
     "jade": "^1.11.0",
-    "moment": "^2.18.1",
-    "mongoose": "^4.9.3",
-    "mysql": "^2.16.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.1",
     "pug": "^2.0.0-beta11",
-    "serve-static": "^1.12.1",
-    "underscore": "^1.8.3"
+    "serve-static": "^1.12.1"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Iamsuler/movies/issues"
   },
-  "homepage": "https://github.com/Iamsuler/movies#readme"
+  "homepage": "https://github.com/Iamsuler/movies#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "@types/mongoose": "^5.5.17",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3"
+  }
 }
